@@ -1,0 +1,19 @@
+# Generated build outputs and local state only.
+**/build/
+**/__pycache__/
+**/.pytest_cache/
+**/.sconsign.dblite
+*.o
+*.obj
+*.elf
+*.axf
+*.map
+*.pyc
+*.pyo
+*.log
+bsp/rockchip/*/Image/*.bin
+bsp/rockchip/*/Image/*.img
+bsp/rockchip/*/auto_version.h
+**/.venv/
+**/.idea/
+**/.vscode/

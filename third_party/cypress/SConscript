@@ -1,0 +1,3 @@
+# Optional package dependencies are excluded from this source subset.
+objs = []
+Return("objs")

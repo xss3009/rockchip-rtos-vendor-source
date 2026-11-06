@@ -1,0 +1,5 @@
+# Standalone source subset: external vendor package is not distributed.
+config BT_ENABLED
+    bool
+    default n
+    depends on n

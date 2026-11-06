@@ -1,0 +1,5 @@
+# Standalone source subset: external vendor package is not distributed.
+config RT_USING_AMPAK
+    bool
+    default n
+    depends on n

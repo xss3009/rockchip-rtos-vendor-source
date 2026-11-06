@@ -1,0 +1,5 @@
+# Standalone source subset: external vendor package is not distributed.
+config RT_USING_WLAN_WICED
+    bool
+    default n
+    depends on n
